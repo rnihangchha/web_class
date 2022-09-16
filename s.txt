@@ -1,8 +1,0 @@
-Threat:
-Something that can damage or destroy an asset
-
-Vulnerability :
-A weakness or gap in your system
-
-Risk
-Intersection of threats vulnerability and asset.
