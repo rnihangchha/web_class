@@ -1,0 +1,4 @@
+R1#conf t
+R1 conf # interface f0/0
+R1 conf-int # ip add 192.168.100.1 255.255.255.0
+R1 CONF-INT # no shutdown

@@ -1,0 +1,112 @@
+VVI in 7 OS layers.
+
+Data link layer
+
+Network layer topic ma  question auxa...
+
+
+
+End Device or Host or Node:
+
+the point where the data are generated or originated.
+
+
+
+peer-to-peer -- works as a server as well as client in a same time... torrent
+
+
+
+Inrermediary   Network Devices.
+ 
+Router 
+
+
+
+
+
+Networkd Media 
+
+Metal wires within cables
+-- uses electeical signal/impulse
+
+Glass or plastic fibers
+--- those medium which uses pulses of light
+
+
+Wireless transmission
+-- thse medium which uses modulation of specific frequencies of electromagnetic waves.
+
+
+
+Physical topology
+1. DeVICE name
+ 
+2. Building info
+
+3. Room number
+
+4. Rack information
+
+5. Slot
+
+LogicaL topology
+
+1. Device Name
+
+2. Network info --> Network address
+
+3. Port information
+
+4. IP addresses
+	a. Router Interface IP address
+	b. End Device static IP
+5. VLANs
+
+
+
+	Common Type of Network
+
+size of the area covered
+number of users connected
+number and types of services available
+area of responsibility
+
+ethernet cable cannot carry the data to the far distance whereas the serial, optical fiber and co-axial can trasnmit the data to the
+far distance.
+
+OSI Layer (VVI)
+
+Specified in ISO 7498
+
+Model has 7 layers
+7. Application 
+6. Presentaion
+5. sesssion
+4. Transport
+3. Network
+2. Data link
+1. Physical layer
+
+
+raw data re compressed / decompressed or enc/dec or encrypt/decrypt
+
+
+Transport
+
+TCP --> reliable
+
+UDP --> unreliable
+
+
+Network layer decide what route/path the data should take from source to destination.
+
+Data link deliver the data by hop-to-hop process. Error detection and error correction, flow control.
+To indicate the start of data in certain fragment which is in form of binary called framing.
+		data starts from 10110101
+
+10101010----10100101 	1010001101
+		data1		data2
+
+
+Physical layer tranform the logical data to the physically in which data is transfer in which medium. 
+
