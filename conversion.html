@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h3>1) write a program to convert deg C to F and vice versa</h3>
+        <p id="c"></p>
+        <script>
+            function ctf(p){
+                return (5/9) * (p-32);
+            }
+            document.getElementById("c").innerHTML=ctf(104)
+        </script>
+    </body>
+    <body>
+        <p id="d"></p>
+        <script>
+            function df(d){
+                return (9/5 * d) + (32);
+            }
+            document.getElementById("d").innerHTML=df(40)
+        </script>
+    </body>
+
+    <body>
+        <h3>2) Write a js program to find the average of 4 numbers make a js function</h3>
+        <p id="s"></p>
+
+        <script>
+            function ss(a , b , c , d){
+                return ( (a + b + c + d) / 4 ) ;
+            }
+            document.getElementById("s").innerHTML=ss(1, 2 , 3 , 4)
+        </script>
+    </body>
+    <body>
+        <h3>3) write a js program to determine if the number is even or odd</h3>
+        <p id="de"></p>
+        <script>
+            var num = 5;
+            if (num%2==0)
+            document.write(num + " is an Even number")
+            else
+                document.write(num + " is an Odd number");
+        </script>
+        <script>
+            var num, temp;
+            function fun()
+            {
+              num = parseInt(document.getElementById("num").value);
+              if(num)
+              {
+                temp = document.getElementById("resPara");
+                temp.style.display = "block";
+                if(num%2==0)
+                  document.getElementById("res").innerHTML = "Even";
+                else
+                  document.getElementById("res").innerHTML = "Odd";
+              }
+            }
+            </script>
+    </body>
+</html>
+
