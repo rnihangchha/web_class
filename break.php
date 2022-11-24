@@ -1,12 +1,4 @@
 <?php
-$i=10;
-$y=5;
-
-$e="sum of $i and $y is";
-$f="multiple of $i and $ y is";
-$g="sub of $i and $y is";
-
-echo $e," ",$i+$y ."</br>", $f," ",$i*$y ."</br>", $g," ", $i-$y."</br>";
 $marks=56;
 
 
@@ -21,6 +13,3 @@ else{
 
 }
 ?>
-
-
-
